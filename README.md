@@ -40,8 +40,54 @@ This project sets up a **Security Information and Event Management (SIEM) Lab** 
     sudo systemctl status elastic-agent.service
 
   
+### **4️⃣ Generate Security Events (Nmap Scan)
+Run an Nmap scan to simulate an attack:
+
+```bash
+sudo nmap -sS <target-ip>
+This should generate security events in Elastic SIEM.
+
+### **🔍 Querying Security Events in Kibana
+To search for Nmap scans in Kibana:
+
+```bash
+event.action: "nmap_scan" OR process.args: "sudo"
+
+📊 Creating a Dashboard in Kibana
+1. Open Kibana → Go to Dashboards
+2. Click Create Dashboard → Add Visualization
+3. Use an Area Chart to display event counts over time
+
+🔔 Creating an Alert for Nmap Scans
+1. Open Kibana → Go to Alerts & Rules
+2. Click Create Rule → Use a Custom Query
+3. Enter query:
+```bash
+event.action: "nmap_scan"
+
+4. Set the rule to notify via email/Slack
+
+📸 Screenshots
+
+🎯 Next Steps
+✅ Try generating different security events
+✅ Experiment with failed SSH login attempts
+✅ Add Windows logs to Elastic SIEM
+✅ Improve detection rules
+
+📫 Contact Me
+💼 LinkedIn: Your LinkedIn
+📧 Email: your.email@example.com
 
 
+---
+
+## **Step 4: Upload Your Project to GitHub**
+1. **Initialize Git** in your project folder:
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit - SIEM Lab"
 
 <!--<h1>JWipe - Disk Sanitization</h1>
 
