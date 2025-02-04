@@ -44,20 +44,22 @@ This project sets up a **Security Information and Event Management (SIEM) Lab** 
 Run an Nmap scan to simulate an attack:
    ```bash
    sudo nmap -sS <target-ip>
+-This should generate security events in Elastic SIEM.
 
-This should generate security events in Elastic SIEM.
-
-###**🔍 Querying Security Events in Kibana
+---
+🔍 Querying Security Events in Kibana
 To search for Nmap scans in Kibana:
 
 ```bash
 event.action: "nmap_scan" OR process.args: "sudo"
 
+---
 📊 Creating a Dashboard in Kibana
 1. Open Kibana → Go to Dashboards
 2. Click Create Dashboard → Add Visualization
 3. Use an Area Chart to display event counts over time
 
+---
 🔔 Creating an Alert for Nmap Scans
 1. Open Kibana → Go to Alerts & Rules
 2. Click Create Rule → Use a Custom Query
