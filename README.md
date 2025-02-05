@@ -6,7 +6,7 @@
 
 
 
--------------------------------------------------------
+
 # 🚀 Elastic SIEM Lab
 
 ## 📌 Overview
@@ -47,9 +47,54 @@ This project sets up a **Security Information and Event Management (SIEM) Lab** 
 4. Verify the agent is running:
    ```bash
    sudo systemctl status elastic-agent.service
+   ```
 
-  
-### **4️⃣ Generate Security Events (Nmap Scan)
+### **4️⃣ Generate Security Events (Nmap Scan)**
 Run an Nmap scan to simulate an attack:
    ```bash
    sudo nmap -sS <target-ip>
+   ```
+📌 This should generate security events in Elastic SIEM.
+
+---
+
+### **🔍 Querying Security Events in Kibana**
+To search for Nmap scans in Kibana, use the following query:
+   ```bash
+   event.action: "nmap_scan" OR process.args: "sudo"
+   ```
+
+---
+
+### **📊 Creating a Dashboard in Kibana**
+1. Open Kibana → Go to Dashboards.
+2. Click Create Dashboard → Add Visualization.
+3. Use an Area Chart to display event counts over time.
+
+---
+
+### **🔔 Creating an Alert for Nmap Scans**
+1. Open Kibana → Go to Alerts & Rules.
+2. Click Create Rule → Use a Custom Query.
+3. Enter the following query:
+   ```bash
+   event.action: "nmap_scan"
+   ```
+4. Set the rule to notify via email/Slack.
+
+---
+
+### **📸 Screenshots**
+(Add relevant screenshots of your Kibana dashboards, queries, and alerts here.)
+
+---
+
+### **📫 Contact Me**
+💼 LinkedIn: Your LinkedIn
+📧 Email: your.email@example.com
+
+
+---
+## 📜 Credits & Attribution  
+This lab setup was inspired by [Abdullahi Ali](https://medium.com/@abdullahi-ali) in his original article published on **May 11, 2023**.  
+For the original guide, visit: [Original Source](<https://medium.com/@aali23/a-simple-elastic-siem-lab-6765159ee2b2>).  
