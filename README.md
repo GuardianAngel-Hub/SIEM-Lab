@@ -1,13 +1,5 @@
 
-
-
-
-
-
-
-
-
-# 🚀 Elastic SIEM Lab
+# 🚀 SIEM Lab
 
 ## 📌 Overview
 This project sets up a **Security Information and Event Management (SIEM) Lab** using **Elastic Stack**. It collects security event logs from a **Kali Linux VM**, analyzes security incidents, and generates alerts.
@@ -96,5 +88,5 @@ To search for Nmap scans in Kibana, use the following query:
 
 ---
 ## 📜 Credits & Attribution  
-This lab setup was inspired by [Abdullahi Ali](https://medium.com/@abdullahi-ali) in his original article published on **May 11, 2023**.  
+This lab setup was inspired by [Abdullahi Ali](https://medium.com/@abdullahi-ali](https://medium.com/@aali23) in his original article published on **May 11, 2023**.  
 For the original guide, visit: [Original Source](<https://medium.com/@aali23/a-simple-elastic-siem-lab-6765159ee2b2>).  
