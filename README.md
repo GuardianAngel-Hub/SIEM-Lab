@@ -82,11 +82,12 @@ To search for Nmap scans in Kibana, use the following query:
 ---
 
 ### **📫 Contact Me**
-💼 LinkedIn: Your LinkedIn
-📧 Email: your.email@example.com
+💼 LinkedIn: [<img align="center" alt="AngelJaramillo | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
+[linkedin]: https://www.linkedin.com/in/angel-jaramillo-339797155
 
 ---
+
 ## 📜 Credits & Attribution  
 This lab setup was inspired by [Abdullahi Ali](https://medium.com/@aali23) in his original article published on **May 11, 2023**.  
 For the original guide, visit: [Original Source](<https://medium.com/@aali23/a-simple-elastic-siem-lab-6765159ee2b2>).  
