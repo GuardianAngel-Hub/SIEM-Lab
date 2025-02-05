@@ -22,7 +22,7 @@ This project sets up a **Security Information and Event Management (SIEM) Lab** 
 ## 📖 Installation & Setup
 ### **1️⃣ Set Up an Elastic Account**
 1. Sign up at [Elastic Cloud](https://cloud.elastic.co/registration)
-2. Create a new **Elasticsearch** deployment
+2. Create a new **Elastic for Security** deployment
 3. Wait for the setup to complete and get the **Cloud ID** & credentials
 
 ### **2️⃣ Install Kali Linux VM**
