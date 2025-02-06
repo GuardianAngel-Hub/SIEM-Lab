@@ -66,7 +66,7 @@ To search for Nmap scans in Kibana, use the following query:
 
 ### **📊 Creating a Dashboard in Kibana**
 1. Open Kibana → Go to Dashboards.
-2. Click Create Dashboard → Add Visualization.
+2. Click Create Dashboard → Add Visualization (Create Visualization).
 3. Use an Area Chart to display event counts over time.
 
 ---
