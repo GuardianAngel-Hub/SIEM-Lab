@@ -46,6 +46,12 @@ Run an Nmap scan to simulate an attack:
    ```bash
    sudo nmap -sS <target-ip>
    ```
+   ```bash
+   nmap -p- localhost
+   ```
+   ```bash
+   sudo nmap -sS localhost
+   ```
 📌 This should generate security events in Elastic SIEM.
 
 ---
