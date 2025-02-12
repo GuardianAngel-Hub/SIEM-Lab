@@ -72,9 +72,9 @@ To search for Nmap scans in Kibana, use the following query:
 ---
 
 ### **🔔 Creating an Alert for Nmap Scans**
-1. Open Kibana → Go to Alerts & Rules.
-2. Click Create Rule → Use a Custom Query.
-3. Enter the following query:
+1. Open Kibana → Go to Alerts > Manage Rules.
+2. Click Create new Rule → Use a Custom Query.
+3. Enter the following query under custome query:
    ```bash
    event.action: "nmap_scan"
    ```
