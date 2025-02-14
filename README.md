@@ -1,5 +1,5 @@
 
-# 🚀 SIEM Lab
+# 🚀 Elastic SIEM Lab
 
 ## 📌 Overview
 This project sets up a **Security Information and Event Management (SIEM) Lab** using **Elastic Stack**. It collects security event logs from a **Kali Linux VM**, analyzes security incidents, and generates alerts.
