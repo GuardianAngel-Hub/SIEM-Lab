@@ -89,7 +89,8 @@ To search for Nmap scans in Kibana, use the following query:
 ---
 
 ### **📫 Contact Me**
-💼 LinkedIn: [<img align="center" alt="AngelJaramillo | LinkedIn" width="22px" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-white-icon.png" />][linkedin]
+💼 LinkedIn: [<img align="center" alt="AngelJaramillo | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" />][linkedin]
+
 
 [linkedin]: https://www.linkedin.com/in/angel-jaramillo-339797155
 
